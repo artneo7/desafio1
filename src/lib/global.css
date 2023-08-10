@@ -1,0 +1,72 @@
+:root {
+  --fonte-primaria: 'Inter', sans-serif;
+  --principal: #E9F0EC;
+  --bg: #121212;
+  --bg-2: #303030;
+  --destaque: #39B5E0;
+}
+
+/* CSS reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: var(--principal);
+  background: var(--bg);
+  height: 100%;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+  overflow-wrap: break-word;
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ol {
+  padding: 0;
+}
+a {
+  color: var(--principal);
+  text-decoration: none;
+}
+button {
+  color: var(--principal);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  touch-action: manipulation;
+}
+
+/* Classes */
+.container {
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media(max-width: 1000px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
