@@ -1,38 +1,12 @@
-# create-svelte
+# Desafio Svelte #1: Regra de 3 simples  
+Demonstração: https://desafio1.artneo.com.br
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Recursos utilizados no projeto 
+Ícones: https://lucide.dev  
+Gradiente: https://www.figma.com/community/plugin/1174390287006360600/Noisy-Gradients  
+SvelteKit: https://kit.svelte.dev  
+Design Figma: https://www.figma.com/community/file/1269061093649506036  
+Fontsource: https://fontsource.org  
+Svelte Copy: https://github.com/ghostdevv/svelte-copy  
+SVooltip: https://svooltip.vercel.app  
+Vercel: https://vercel.com  
