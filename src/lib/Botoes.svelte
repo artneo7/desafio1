@@ -20,7 +20,7 @@
 </script>
 
 <section class="btns">
-  <button use:tooltip={{content: "Copiar"}} use:copy={`${$calculadora.x}`}><ClipboardCopy/></button>
+  <button use:tooltip={{content: "Copiar"}} use:copy={`${$calculadora.x.toLocaleString('pt-BR')}`}><ClipboardCopy/></button>
   <button use:tooltip={{content: "Resetar", placement: "bottom"}} on:click={resetar} on:keypress={resetar}><RotateCcw/></button>
 </section>
 
